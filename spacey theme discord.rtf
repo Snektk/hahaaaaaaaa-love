@@ -1,0 +1,393 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\*\generator Riched20 10.0.17763}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang9 @import url('https://fonts.googleapis.com/css?family=Raleway');\par
+:root\{\par
+    --title-gradient:linear-gradient(to right,#37b1da 0,#c948cd 50%,#cce335 100%);\par
+    --primary-color:#75a00d;\par
+    --outline-color:#0a0a0a;\par
+    --outline-lightcolor:#303030;\par
+    --app-color:#111;\par
+    --channels-color:#111;\par
+    --channels-darker:#0c0c0c;\par
+    --channels-selected:#191919;\par
+    --channels-text-selected:#9fca2b;\par
+    --chat-color:#1a1a1a;\par
+    --mention-color:#1f1f1f;\par
+    --scrollbar-bg:#2d2d2d;\par
+    --scrollbar-thumb:#414141;\par
+    --text-input:#191919;\par
+    --dropdown-color:#232323;\par
+    --link-color:#96c83c;\par
+    --channel-radius:5px;\par
+    --text-color:#cbcbcb;\par
+    --text-darker:#b0b0b0;\par
+    --font:'Verdana',Helvetica,Arial,sans-serif;\par
+    --important-notification-l:#f84747;\par
+    --important-notification:#d12020;\par
+\}\par
+*\{\par
+    font-size:100%;\par
+    font-family:var(--font)!important\par
+\}\par
+strong\{\par
+    font-weight:500\par
+\}\par
+a\{\par
+    color:var(--link-color)\par
+\}\par
+body\{\par
+    font-family:var(--font)!important;\par
+    background-color:var(--app-color)\par
+\}\par
+input,textarea\{\par
+    font-family:var(--font)!important\par
+\}\par
+.appMount-3lHmkl\{\par
+    left:6px;\par
+    top:6px;\par
+    height:calc(100vh - 12px);\par
+    width:calc(100vw - 12px);\par
+    box-shadow:0 0 0 1px #3c3c3c,0 0 0 4px #282828,0 0 0 5px #3c3c3c,0 0 0 6px #0a0a0a;\par
+    background-color:var(--channels-color)\par
+\}\par
+.typeWindows-1za-n7\{\par
+    height:25px;\par
+    background:var(--primary-color);\par
+    margin-top:1px!important;\par
+    margin-left:1px;\par
+    margin-right:1px;\par
+    background:var(--title-gradient);\par
+    box-shadow:inset 0 -23px 0 0 var(--app-color),inset 0 -24px 0 0 rgba(0,0,0,0.5);\par
+    opacity:1.0;\par
+    z-index:50;\par
+    border-bottom:1px solid var(--outline-lightcolor)\par
+\}\par
+\par
+*/.typeWindows-1za-n7:hover\{\par
+\tab height:20px;\par
+\tab transition: all .6s;\par
+\tab opacity: 1;\par
+\}*/\par
+\par
+.winButton-iRh8-Z\{\par
+    top:2px!important\par
+\}\par
+.wordmark-2iDDfm\{\par
+    opacity:1.0;\par
+    font-family:'Raleway'\par
+\}\par
+.wordmark-2iDDfm::before\{\par
+    content:'spacey';\par
+    font-size:14px;\par
+    z-index:1000;\par
+    position:fixed;\par
+    display:inline-block;\par
+    color:var(--text-color);\par
+    height:auto;\par
+    top:12px;\par
+    left:12px;\par
+    background-color:transparent\par
+\}\par
+.mention-1f5kbO \{\par
+    background-color: var(--primary-color)!important;\par
+\}\par
+.wordmark-2iDDfm::after\{\par
+    content:'.cf';\par
+    font-size:14px;\par
+    z-index:1000;\par
+    position:fixed;\par
+    display:inline-block;\par
+    color:var(--primary-color);\par
+    height:auto;\par
+    top:12px;\par
+    left:52px;\par
+    background-color:transparent\par
+\}\par
+\par
+.winButtonClose-1HsbF-\{\par
+    height:33px;\par
+\}\par
+.winButtonClose-1HsbF-:hover\{\par
+    background-color: transparent;\par
+\}\par
+.winButtonMinMax-PBQ2gm\{\par
+\tab height:33px;\par
+\}\par
+.winButtonMinMax-PBQ2gm:hover\{\par
+    background-color: transparent;\par
+\}\par
+.wordmark-2iDDfm svg\{\par
+    display:none\par
+\}\par
+.theme-dark .guildsWrapper-5TJh6A\{\par
+    background:var(--channels-darker);\par
+    box-shadow:inset -1px 0 0 0 #303030,inset -2px 0 0 0 #000\par
+\}\par
+.guildsWrapper-5TJh6A .guildsAdd-21_Id\{\par
+    border-radius:0;\par
+    background:var(--chat-color);\par
+    border:1px dashed var(--outline-lightcolor);\par
+    color:var(--outline-lightcolor)\par
+\}\par
+.guildsWrapper-5TJh6A .guildsAdd-21_Id:hover\{\par
+    color:var(--text-color);\par
+    border-color:var(--text-color)\par
+\}\par
+.guildsWrapper-5TJh6A .guildsAdd-21_Id-inner\{\par
+    top:-2px\par
+\}\par
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guilds-1q_RqH+.guilds-1q_RqH\{\par
+    margin-bottom:25px;\par
+    margin-top:25px\par
+\}\par
+.guildInner-3DSoA4\{\par
+    border-radius:0!important\par
+\}\par
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ+.guild-1EfMGQ\{\par
+    margin-top:25px\par
+\}\par
+.guildsWrapper-5TJh6A .guilds-1q_RqH ..friendsOnline-_wi_fM\{\par
+    padding-bottom:10px;\par
+    font-size:9px\par
+\}\par
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq:before\{\par
+    box-shadow:0 1px 0 0 #303030,-1px 2px 0 0 #000,0 -1px 0 0 #303030,-1px -2px 0 0 #000;\par
+    background:var(--channels-color);\par
+    border-radius:0;\par
+    height:70px;\par
+    margin-top:-35px;\par
+    width:75px;\par
+    -webkit-transition:none;\par
+    transition:none\par
+\}\par
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ .guildInner-3DSoA4\{\par
+    background:var(--chat-color)!important\par
+\}\par
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq .guildInner-3DSoA4 a\{\par
+    background-color:var(--primary-color)!important;\par
+    transition:all .3s ease\par
+\}\par
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq .guildInner-3DSoA4\{\par
+    background-color:var(--primary-color)!important;\par
+    transition:all .3s ease\par
+\}\par
+.guildInner-3DSoA4\{\par
+    background-color:var(--primary-color);\par
+    border-radius:var(--channel-radius)!important;\par
+    transition:all .3s ease\par
+\}\par
+.guildInner-3DSoA4:hover\{\par
+    background-color:var(--primary-color)!important;\par
+    transition:all .3s ease\par
+\}\par
+.guild-1EfMGQ.active .guildInner-3DSoA4\{\par
+    background:var(--primary-color)!important\par
+\}\par
+.guildsWrapper-5TJh6A .guildSeparator-1X4GQ1\{\par
+    display:none\par
+\}\par
+.guildsAdd-21_IdK \{\par
+\tab border-radius: 10%;\par
+\}\par
+.avatar-large,.avatar-profile,.avatar-small,.avatar-xlarge,.avatar-xsmall,.avatar-xxlarge\{\par
+    border-radius:var(--channel-radius)!important\par
+\}\par
+.avatarHint-1qgaV3\{\par
+\tab border-radius:var(--channel-radius)!important\par
+\}\par
+.container-PNkimc\{\par
+    background:none!important\par
+\}\par
+.base-3dtUhz\{\par
+    border-radius:0!important\par
+\}\par
+.header-2o-2hj\{\par
+    background:var(--channels-darker);\par
+    box-shadow:none!important;\par
+    border-bottom:1px solid var(--outline-lightcolor)\par
+\}\par
+.header-2o-2hj:hover\{\par
+    background:var(--channels-selected)\par
+\}\par
+.container-1UB9sr\{\par
+    border-top:1px solid var(--outline-lightcolor);\par
+    border-bottom:0;\par
+    background:var(--chat-color);\par
+    font-size:11px;\par
+    padding:5px 10px 5px 10px\par
+\}\par
+.channels-Ie2l6A.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr \{\par
+    background:var(--channels-color);\par
+    border-right:1px solid var(--outline-lightcolor)\par
+\}\par
+.name-3M0b8v\{\par
+    font-size:13px;\par
+    font-weight:700\par
+\}\par
+.contentSelectedText-3wUhMi\{\par
+    background:var(--channels-selected)\par
+\}\par
+\par
+.nameSelectedText-sp_EUw,.nameSelectedVoice-1qSph5,svg.colorSelectedText-1y4Wvs.icon-sxakjD,svg.colorSelectedVoice-Xcb_9R.icon-sxakjD\{\par
+    color:var(--channels-text-selected)!important;\par
+    opacity:1\par
+\}\par
+\par
+\par
+.theme-dark .member-3W1lQa:hover .content-OzHfo4, .theme-dark .member-3W1lQa.popout-open .content-OzHfo4, .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4 \{\par
+\tab background:var(--channels-selected)\par
+\}\par
+\par
+.contentHoveredText-2D9B-x,.contentHoveredVoice-3p_NEO,.contentHoveredVoice-3p_NEO:active,.contentSelectedVoice-1WDIBM:active\{\par
+    background:none!important\par
+\}\par
+.container-2Thooq\{\par
+    background:var(--channels-darker);\par
+    border-top:1px solid var(--outline-lightcolor)\par
+\}\par
+.popout\{\par
+    background:var(--dropdown-color)!important;\par
+    border:solid 1px var(--outline-color)!important;\par
+    border-radius:1px\par
+\}\par
+.small-popout-box\{\par
+    background:var(--dropdown-color)!important;\par
+    border:solid 1px var(--outline-color)!important;\par
+    border-radius:1px\par
+\}\par
+//test \par
+.userPopout-3XzG_A \{\par
+    border-radius: 1px;\par
+    box-shadow: 0 0 0 1px #323232,0 0 0 2px #0a0a0a!important;\par
+\}\par
+    background: var(--channels-darker)!important;\par
+\tab background: var(--channels-color)!important;\par
+\tab background: var(--text-input)!important;\par
+\tab background: var(--primary-color);\par
+\tab\par
+.note-3kmerW textarea \{\par
+    border-radius: 0!important;\par
+    background: var(--text-input)!important;\par
+    border: 0;\par
+    box-shadow: inset 0 0 0 1px #323232, inset 0 0 0 2px #101010;\par
+    font-size: 11px;\par
+\}\par
+//test\par
+\par
+.theme-dark .messagesPopoutWrap-1MQ1bW .footer-1kmXd4 \{\par
+    background: var(--channels-darker)!important;\par
+\}\par
+.theme-dark .messagesPopoutWrap-1MQ1bW \{\par
+    border-radius: 1px;\par
+    background: var(--channels-color)!important;\par
+    box-shadow: 0 0 0 1px #323232,0 0 0 2px #0a0a0a!important;\par
+\}\par
+\par
+.theme-dark .messagesPopoutWrap-1MQ1bW .header-ykumBX \{\par
+    -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,20%);\par
+    background-color: #35393e;\par
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);\par
+    background: var(--channels-darker)!important;\par
+\}\par
+\par
+.option-popout .btn-item,.option-popout .btn-item:hover\{\par
+    color:var(--text-color)\par
+\}\par
+.contextMenu-HLZMGh\{\par
+    background:var(--dropdown-color)!important;\par
+    border:solid 1px var(--outline-color)!important;\par
+    border-radius:1px;\par
+    box-shadow:none!important\par
+\}\par
+.item-1Yvehc\{\par
+    font-size:11px!important\par
+\}\par
+.item-1Yvehc:hover\{\par
+    background:var(--outline-lightcolor)!important;\par
+    border-radius:0\par
+\}\par
+.itemSubMenu-1vN_Yn\{\par
+    background-color:var(--dropdown-color)!important\par
+\}\par
+.menu-Sp6bN1\{\par
+    border-radius:1px;\par
+\tab background:var(--chat-color)!important;\par
+\tab box-shadow:0 0 0 1px #323232,0 0 0 2px #0a0a0a!important;\par
+\}\par
+.item-1GzJrl\{\par
+    color:var(--text-color);\par
+    font-size:11px!important\par
+\}\par
+.item-1GzJrl:hover\{\par
+    border-radius:0!important;\par
+    color:var(--text-color);\par
+    background:var(--outline-lightcolor)!important\par
+\}\par
+.separator-2zcjq8\{\par
+    border-color:var(--outline-lightcolor)!important;\par
+    width:100%\par
+\}\par
+.title-3qD0b-,.titleCall-_b9o8P\{\par
+    background:var(--channels-darker)!important;\par
+    box-shadow:inset 0 -1px 0 var(--outline-lightcolor)!important\par
+\}\par
+.channelName-3stJzi\{\par
+    font-size:13px;\par
+    color:var(--text-color)!important\par
+\}\par
+.channelName-3stJzi svg\{\par
+    width:14px;\par
+    color:var(--text-color)\par
+\}\par
+.channelIcon-MsmKOO\{\par
+    top:4px\par
+\}\par
+.topic-2QX7LI\{\par
+    font-size:11px\par
+\}\par
+.messagesWrapper-3lZDfY \{\par
+    background:none!important\par
+\}\par
+.chat-3bRxxu>.content-yTz4x3\{\par
+    background:var(--chat-color)!important\par
+\}\par
+.embedPill-1Zntps\{\par
+    background:var(--primary-color)!important\par
+\}\par
+.embedInner-1-fpTo\{\par
+    background:var(--channels-darker)!important;\par
+    border-radius:1px!important;\par
+    border-color:var(--outline-lightcolor)!important\par
+\}\par
+.message-group\{\par
+    padding:15px 0\par
+\}\par
+.message-group h2 strong\{\par
+    font-size:13px\par
+\}\par
+.timestampCozy-2hLAPV\{\par
+    font-size:9px\par
+\}\par
+.markup-2BOw-j\{\par
+    font-size:11px;\par
+    line-height:1.4em\par
+\}\par
+.markup-2BOw-j pre\{\par
+    border-radius:1px!important;\par
+    border:none!important;\par
+    box-shadow:0 0 0 1px #323232,0 0 0 2px #101010!important\par
+\}\par
+.markup-2BOw-j pre code\{\par
+    font-size:13px;\par
+    background:var(--dropdown-color)!important\par
+\}\par
+.hljs-section\{\par
+    color:var(--primary-color)!important\par
+\}\par
+.theme-dark .divider-3gKybi.dividerRed-MKoLlr>span \{\par
+    background:var(--chat-color)!important\par
+\}\par
+\par
+.theme-dark .divider-3gKybi span\'85\par
+}
+ 
